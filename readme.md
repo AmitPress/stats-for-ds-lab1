@@ -1,4 +1,4 @@
-#### Statistics for Data Science
+# Statistics for Data Science
 > This is a basic python introductory problem solving assignment by the cse303 course
 
 ## How to operate
