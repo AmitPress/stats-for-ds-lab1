@@ -8,7 +8,7 @@ def sum_of_list(lis):
         sum += i
     return sum
 if __name__ == '__main__':
-    li = list(map(int, input("Enter the integers:\n").split()))
+    li = [4, 5, 6, 5, 4]
     print(sum_of_list(li))
 
 # test:

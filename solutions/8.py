@@ -8,6 +8,9 @@ def sum_of_even_indexed_numbers(lis):
             sum += n
     return sum
 if __name__ == '__main__':
-    lis = list(map(int, input("Enter the integers:\n").split()))
+    lis = [1, 2, 3, 4, 5] # considering 0 is even , the even indices value are 1, 3, 5
     # n = int(input(""))
     print(f"The sum of the list is {sum_of_even_indexed_numbers(lis)}")
+
+# test:
+# The sum of the list is 9
