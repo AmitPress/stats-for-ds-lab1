@@ -4,9 +4,6 @@
 
 def solution(n,s):
     sz = len(s)
-    if n>sz:
-        print("N is larger than the size of the string")
-        return
     new_string = ""
     for i, c in enumerate(s):
         if not i<n:
@@ -15,7 +12,11 @@ def solution(n,s):
 if __name__ == '__main__':
     n = int(input("Enter the number:\n"))
     s = input("Enter the string:\n")
-    print(f"The new string is: {solution(n,s)}")
+    sz = len(s)
+    if n>sz:
+        print("N is larger than the size of the string")
+    else:
+        print(f"The new string is: {solution(n,s)}") if not solution(n,s) == '' else print("All charecters removed")
 
 # test:
 # Enter the number:
