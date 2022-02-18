@@ -3,5 +3,5 @@
 
 ## How to operate
 - Clone the repository
-- Change drive into `solutions folder` and run `py <file_name.py>`
+- Change drive into `solutions folder` and run `py <file_name>.py`
 - All the hints are provided through comments as well
