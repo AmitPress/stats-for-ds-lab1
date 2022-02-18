@@ -6,7 +6,7 @@ def solution(n,s):
     sz = len(s)
     new_string = ""
     for i, c in enumerate(s):
-        if not i<n:
+        if not i<=n:
             new_string += c
     return new_string
 if __name__ == '__main__':
@@ -23,5 +23,5 @@ if __name__ == '__main__':
 # 5
 # Enter the string:
 # IAMTIRED
-# The new string is: RED
+# The new string is: ED
         
