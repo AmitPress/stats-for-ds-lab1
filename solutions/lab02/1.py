@@ -8,7 +8,6 @@ def solution():
 if __name__ == '__main__':
     print("The result is:")
     solution()
-    pass
 
 # test:
 # The result is:
